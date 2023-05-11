@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("./image/DALLEcopy.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    height: 100vh;
+}
+
+
+.drag_drop{
+    width: 425px;
+  padding: 25px;
+  background: #fff;
+  border-radius: 7px;
+  padding: 30px 25px 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.item{
+    list-style: none;
+    display: flex;
+    cursor: move;
+    background: #ffffff71;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px 13px;
+    margin-bottom: 11px;
+    border: 1px solid #ccc;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.item_image_and_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 4px;
+}
